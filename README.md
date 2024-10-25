@@ -15,7 +15,7 @@ Efficient batching library for OpenAI and Anthropic LLM requests. Uses native JS
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/stackblitz/llm-batch.git
+git clone https://github.com/Ketver/llm-batching-a.git
 cd llm-batch
 ```
 
@@ -38,13 +38,13 @@ npm test
 ## Installation
 
 ```bash
-npm install @stackblitz/llm-batch openai @anthropic-ai/sdk
+npm install @Ketver/llm-batching-a @anthropic-ai/sdk
 ```
 
 ## Quick Start
 
 ```javascript
-import LLMBatch from '@stackblitz/llm-batch';
+import LLMBatch from '@Ketver/llm-batching-a';
 
 // Load from environment variables
 const llm = new LLMBatch({
@@ -67,7 +67,7 @@ const batchResponse = await llm.chat('openai', [
 
 Want to try it out without installing? Click the button below:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/stackblitz/llm-batch)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/Ketver/llm-batching-a)
 
 ## Examples
 
